@@ -1,0 +1,26 @@
+
+body {
+  background-color: rgb(164,197,233,255)
+}
+.titulo1 {
+  background-color: rgb(164,197,233,255)
+}
+.titulo1 {
+  color: rgba(93,89,165,255);
+  text-align: center;
+  text-shadow: 3px -3px 2px white;
+  border-bottom: thick solid rgba(93,89,165,255);
+  margin: 0;
+}
+.caja1 {
+  background-color: white
+}
+.caja1 img {
+  float: left;
+}
+/*clearfix */
+.caja1:after {
+  display: table;
+  clear: both;
+  content: "";  
+}
